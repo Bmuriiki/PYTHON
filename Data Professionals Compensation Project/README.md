@@ -445,103 +445,8 @@ The exported dataset is then loaded again to verify the cleaned output.
 
 ---
 
-# 📊 Analysis
 
-The cleaned dataset can be used to investigate relationships between:
 
-* Salary and professional level
-* Salary and years of experience
-* Salary and industry
-* Salary and role
-* Salary and employer type
-* Salary and work setup
-* Salary and technology stack
-* Professional level and experience
-* Industry and compensation
-* Technology stack and compensation
-
-> **Note:** The uploaded Python file documents the data preparation process but does not contain the final analytical results. Therefore, specific findings and numerical insights are not included in this README yet.
-
----
-
-# 📈 Power BI Visualization
-
-The cleaned dataset provides the foundation for an interactive Power BI dashboard.
-
-Potential dashboard areas include:
-
-### Executive Overview
-
-Key metrics such as:
-
-* Average Salary
-* Median Salary
-* Highest Salary
-* Number of Respondents
-* Average Years of Experience
-
-### Compensation Analysis
-
-Visualizations comparing:
-
-* Salary by role
-* Salary by professional level
-* Salary by industry
-* Salary by employer type
-* Salary by years of experience
-
-### Technology Analysis
-
-Visualizations exploring:
-
-* Most common technology stacks
-* Technology stack by professional level
-* Technology stack and compensation
-
-### Work Setup Analysis
-
-Visualizations comparing:
-
-* Remote
-* Hybrid
-* Office-based work
-* Compensation by work setup
-
----
-
-# 🧰 Technologies Used
-
-### Python
-
-Used for data ingestion, cleaning, transformation and export.
-
-### Pandas
-
-Used extensively for:
-
-* Data manipulation
-* String cleaning
-* Value mapping
-* Missing-value handling
-* Data type conversion
-* Dataset restructuring
-* CSV export
-
-The project imports Pandas and uses it throughout the cleaning workflow.
-
-### Google Colab
-
-The uploaded script was generated from a Google Colab notebook and uses Colab's file upload functionality.
-
-### Power BI
-
-Used for interactive visualization and dashboard development.
-
-### GitHub
-
-Used to document and version-control the project.
-
----
 
 # 📂 Repository Structure
 
@@ -554,20 +459,9 @@ data-professionals-compensation/
 │
 ├── data/
 │   ├── compensation.csv
-│   └── data_professionals_compensation.csv
 │
 ├── data_cleaning/
-│   └── data_compensation.py
-│
-├── analysis/
-│   └── analysis.py
-│
-├── power_bi/
-│   ├── Data_Professionals_Compensation.pbix
-│   └── dashboard_screenshots/
-│
-└── documentation/
-    └── data_cleaning_notes.md
+│   └── data_compensation.ipynb
 ```
 
 ---
@@ -597,18 +491,10 @@ data-professionals-compensation/
 data_professionals_compensation.csv
                    │
                    ▼
-               ANALYSIS
-                   │
-                   ▼
-             POWER BI
-                   │
-                   ▼
-          BUSINESS INSIGHTS
-```
 
 ---
 
-# 🎯 Key Learning Outcomes
+# 🎯 Key Skills
 
 Through this project, the following practical data analytics skills are demonstrated:
 
@@ -628,46 +514,3 @@ Through this project, the following practical data analytics skills are demonstr
 * Business-oriented data visualization
 
 ---
-
-# 🚀 Future Improvements
-
-Potential improvements to the project include:
-
-* Perform exploratory data analysis using Python
-* Calculate descriptive statistics
-* Analyze salary distributions
-* Investigate salary differences across industries
-* Analyze salary progression by experience
-* Compare compensation across professional levels
-* Perform technology-stack analysis
-* Build an interactive Power BI dashboard
-* Add statistical analysis to identify relationships between experience, role and salary
-* Document final business insights and recommendations
-
----
-
-# 👤 Author
-
-**Brian Muriiki**
-
-Data Analyst | Data Engineering & Analytics
-
-### Skills Demonstrated
-
-`Python` • `Pandas` • `SQL` • `Power BI` • `Data Cleaning` • `Data Analysis` • `Data Visualization`
-
----
-
-## ⭐ Project Summary
-
-This project demonstrates an end-to-end approach to preparing **data professionals compensation data** for business analysis.
-
-Starting with a messy survey dataset, Python and Pandas were used to clean inconsistent categorical values, standardize industries and professional levels, transform salary values into KES, handle missing and invalid salary information, consolidate technology-stack data, and produce a structured dataset ready for analysis.
-
-The final cleaned dataset is exported as:
-
-```text
-data_professionals_compensation.csv
-```
-
-This dataset forms the foundation for subsequent analysis and Power BI visualization.
